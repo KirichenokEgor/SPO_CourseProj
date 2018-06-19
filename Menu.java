@@ -17,7 +17,7 @@ class MenuItem extends StackPane{
     public MenuItem(String name){
         Rectangle bg = new Rectangle(200,20, Color.WHITE);
         bg.setOpacity(0.5);
-
+/////
         Text text = new Text(name);
         text.setFill(Color.GRAY);
         text.setFont(Font.font("Arial", FontWeight.BOLD, 14));
